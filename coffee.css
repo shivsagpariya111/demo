@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-caption {
+    bottom: 270px;
+}
+
+.nav-link {
+    padding: .2rem 1rem;
+}
+
+.coffee-img {
+    object-fit: cover;
+}
+
+.third-section {
+    height: 500px;
+    background-color: #1B1B1B;
+    object-fit: cover;
+}
+
+.four-section{
+    background-color: black;
+}
+
+.first-card{
+    background-color: black;
+    justify-content: center;
+}
+
+.first-col{
+    background-image: url('../image/first-coffee.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height:425px;
+    background-size: cover;
+}
+.first-col-btn{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+}
+.second-col-first{
+    background-image: url('../image/first-coffee.jpg');   
+    background-repeat: no-repeat;
+    height: 200px; 
+    background-size: cover;
+}
+.second-col1-first{
+    background-image: url('../image/second-coffee.jpg');   
+    background-repeat: no-repeat;
+    height: 200px; 
+    background-size: cover;
+}
+.second-col2-first{
+    background-image: url('../image/third-coffee.jpg');   
+    background-repeat: no-repeat;
+    height: 200px; 
+    background-size: cover;
+}
+.second-col12-first{
+    background-image: url('../image/cafe_1.jpg');  
+    background-repeat: no-repeat;
+    height: 200px; 
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.second-col21-first{
+    background-image: url('../image/secon-coffee.jpg');   
+    background-repeat: no-repeat;
+    height: 200px; 
+    background-size: cover;
+}
+.second-col-btn{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.second-col1-btn{
+    position: absolute;
+   left: 20%;
+    top: 35%;
+}
+.second-col2-btn{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+
+.second-col3-btn{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.second-col4-btn{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.btn-about{
+    width: 173px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+.nine-section{
+    background-color: #101010;
+    height: 170px;
+    position: absolute;
+    left: 20%;
+    top: -23%;
+}
+.sale-btn
+{
+    padding: 8px;
+    border-radius: 20px;
+    height: 27px;
+    padding-top: 0px;
+    position: absolute;
+    left:10%;
+    top: 5%;
+}
+.carousel-font{
+    font-family: 'Style Script', cursive;
+}
+.carousel-font1{
+    font-family: 'Style Script', cursive;
+}
+.fifth-section{
+    background-color: #1B1B1B;
+}
+.fix-section{
+    background-color: #141414;
+}
+.carousel-item-image{
+    object-fit: cover;
+}
+.second-section{
+    background-color: #141414;height: 250px;
+}
+.product-imd-width{
+    width: 18rem;
+    position: relative;
+}
+.seven-section{
+    background-color: #1B1B1B;
+    height: 800px;
+}
+.news-img{
+    width: 24rem;
+}
+.eight-section{
+    position: relative;
+    background-color: #141414;
+    height: 600px;
+     padding: 150px;
+}
+.hr{
+    background-color: #1B1B1B;height:2px; 
+}
+.nav-item-fisrt{
+    background-color: #141414;
+}
+.subscribe-btn{
+    background-color: #101010;
+}
+.discout{
+    color: #8D7046;
+}
+.footer-discount{
+    margin-right: 10%;
+}
+.footer-icon{
+    width: 50%;
+}
+#nav.scrolled{
+    background-image: linear-gradient(to right,lightblue , lightgreen ,white);
+}
+
+@media(max-width: 768px){
+    .campany-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .coffee-img{
+        object-fit: cover;
+        height: 30%;
+    }
+    .first-col{
+        height: 175px;
+    }
+    .first-col-btn{
+        left: 25%;
+        top: 40%;
+    }
+
+    .second-row
+    {
+        position: absolute;
+        top: 173%;
+        left: 0%;
+    }
+    .second-col12-first , .second-col21-first , .second-col1-first , .second-col2-first{
+        height: 150px;
+        background-size: cover;
+    }
+    .third-section{
+        height: 570px;
+    }
+    .second-col1-btn , .second-col2-btn , .second-col3-btn , .second-col4-btn{
+        position: absolute;
+        left: 10.5%;
+        width: 80%;
+        padding: 0px;
+    }
+    .carousel-font{
+        font-size: 295%;
+    }
+    .nine-section{
+        position: absolute;
+        left: 0%;
+        top: -15%;
+    }
+    .product-menu{
+        text-align: center;
+    }
+    .seven-section{
+        height: 1000px;
+    }
+    .eight-section{
+        height: 890px;
+        padding: 0;
+    }
+    .footer-icon{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .carousel-font1{
+        font-family: 'Style Script', cursive;
+        font-size: 120%;
+
+    }
+
+}
